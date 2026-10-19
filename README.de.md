@@ -122,7 +122,7 @@ Die Regeln im Skill sind englisch. Modelle befolgen sie auch, wenn sie auf Deuts
 ### Skill (Cursor, Claude Code, Codex, skills.sh)
 
 ```bash
-npx skills add taner-svg/slopguard
+npx skills add taner-dogan/slopguard
 ```
 
 ### Cursor-Regel, immer aktiv
@@ -132,7 +132,7 @@ npx skills add taner-svg/slopguard
 ### In jedes LLM einfügen
 
 ```bash
-curl -o slopguard.md https://raw.githubusercontent.com/taner-svg/slopguard/main/slopguard.md
+curl -o slopguard.md https://raw.githubusercontent.com/taner-dogan/slopguard/main/slopguard.md
 ```
 
 Den Inhalt in Custom Instructions oder den System-Prompt einfügen.

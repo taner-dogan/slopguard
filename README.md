@@ -118,7 +118,7 @@ flowchart LR
 ### Skill (Cursor, Claude Code, Codex, skills.sh)
 
 ```bash
-npx skills add taner-svg/slopguard
+npx skills add taner-dogan/slopguard
 ```
 
 ### Cursor always-on rule
@@ -128,7 +128,7 @@ Copy [`rules/slopguard.mdc`](rules/slopguard.mdc) to `.cursor/rules/slopguard.md
 ### Paste into any LLM
 
 ```bash
-curl -o slopguard.md https://raw.githubusercontent.com/taner-svg/slopguard/main/slopguard.md
+curl -o slopguard.md https://raw.githubusercontent.com/taner-dogan/slopguard/main/slopguard.md
 ```
 
 Put the contents in Custom Instructions or the system prompt.

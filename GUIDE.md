@@ -16,13 +16,13 @@ Install, update, and remove. English for discoverability; the skill itself is DE
 ### skills.sh / npx skills (recommended for agents)
 
 ```bash
-npx skills add taner-svg/slopguard
+npx skills add taner-dogan/slopguard
 ```
 
 Or with an explicit skill name:
 
 ```bash
-npx skills add taner-svg/slopguard --skill slopguard
+npx skills add taner-dogan/slopguard --skill slopguard
 ```
 
 Start a new agent session after install so the skill loads.
@@ -42,7 +42,7 @@ You can also append the pointer from root `AGENTS.md` to your project `AGENTS.md
 ### Paste-only (ChatGPT, Gemini, any window)
 
 ```bash
-curl -o slopguard.md https://raw.githubusercontent.com/taner-svg/slopguard/main/slopguard.md
+curl -o slopguard.md https://raw.githubusercontent.com/taner-dogan/slopguard/main/slopguard.md
 ```
 
 Paste the file contents into Custom Instructions or the system prompt. No folders required.
@@ -50,7 +50,7 @@ Paste the file contents into Custom Instructions or the system prompt. No folder
 ### Manual clone
 
 ```bash
-git clone https://github.com/taner-svg/slopguard.git
+git clone https://github.com/taner-dogan/slopguard.git
 ```
 
 Then copy `skills/slopguard` and/or `rules/slopguard.mdc` as above.
