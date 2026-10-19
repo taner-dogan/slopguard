@@ -85,4 +85,3 @@ At session start the skill asks **during** vs **after** unless you already chose
 
 - Skill not loading: confirm the folder name is `slopguard` and contains `SKILL.md`; open a new session.
 - Rule not applying in Cursor: check `alwaysApply: true` in the `.mdc` frontmatter and that the file is under `.cursor/rules/`.
-- Name clash: other tools also use “slopguard” for dependency scanning. This repo is an **output filter**, not an install firewall.
