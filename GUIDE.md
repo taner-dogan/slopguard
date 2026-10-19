@@ -76,10 +76,12 @@ Start a new session after updating.
 
 ## Modes
 
-At session start the skill asks **during** vs **after** unless you already chose.
+At session start the skill asks **during** vs **after** unless you already chose. Diagram: [README.md](README.md#how-modes-work).
 
 - **during** — filter while generating; run the delivery checklist before shipping.
 - **after** — audit existing work, list findings, wait for approval, then fix.
+
+Before/after examples for chat, code, UI, and prose: [README.md](README.md#see-the-difference).
 
 ## Troubleshooting
 
